@@ -1,0 +1,34 @@
+
+.navbar-right {
+    float: right;
+}
+.nav.navbar-nav.navbar-right ul {
+    float: right;
+    color: white;
+}
+.nav.navbar-nav.navbar-right li {
+    float: left;
+}
+.nav.navbar-nav.navbar-right li > a {
+    float: left;
+    color: white;
+}
+.nav.navbar-nav.navbar-left li > a {
+    color: white;
+}
+.navbar-toggle {
+    float: left;
+}
+@media all and (max-width:767px) {
+    .navbar-header {
+        float: left;
+    }
+    .navbar-collapse {
+        clear: both;
+        float: none;
+    }
+}
+#number-badge{
+    margin-right: 20px;
+    margin-left: 5px;
+}

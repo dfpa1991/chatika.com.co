@@ -1,0 +1,13 @@
+#div-register{
+    text-align: center;
+    width: 500px;
+}
+#btn-login,
+#btn-register{
+    background: #ff2902;
+    border: solid 1px #ff2902;
+    float: right;
+}
+label{
+    text-align: left; !important;
+}
